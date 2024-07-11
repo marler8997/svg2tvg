@@ -1,0 +1,20 @@
+.{
+    .name = "svg2tvg",
+    .version = "0.0.0",
+    .minimum_zig_version = "0.13.0",
+    .dependencies = .{
+        .zig_xml = .{
+            .url = "https://github.com/marler8997/zig-xml/archive/5e05fee2724db4cbef370ccdf925f61a613ded6e.tar.gz",
+            .hash = "12202710807becc9514b75f828a07c76d5afc807e1799bd9c79cabfe71a93253a221",
+        },
+        .tinyvg = .{
+            .path = "tinyvg",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "tinyvg",
+    },
+}
